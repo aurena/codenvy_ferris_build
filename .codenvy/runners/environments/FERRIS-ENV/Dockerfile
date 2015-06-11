@@ -1,0 +1,7 @@
+FROM codenvy/python27_gae
+
+EXPOSE 8080
+ENV CODENVY_APP_PORT_8000_HTTP 8080
+
+VOLUME ["/home/user/app"]
+ENV CODENVY_APP_BIND_DIR /home/user/app

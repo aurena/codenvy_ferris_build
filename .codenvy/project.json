@@ -1,0 +1,1 @@
+{"mixinTypes":[],"builders":{"configs":{}},"runners":{"configs":{"system:/python/web/python27":{"ram":1000,"variables":{},"options":{}},"project:/FERRIS-ENV":{"ram":1000,"variables":{"configurationType":"python/web"},"options":{}}},"default":"project:/FERRIS-ENV"},"type":"GAEPython","attributes":{"language":["python"]}}
