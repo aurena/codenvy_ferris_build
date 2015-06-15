@@ -14,3 +14,6 @@ ENV CODENVY_APP_PORT_8000_HTTP 8080
 
 VOLUME ["/home/user/app"]
 ENV CODENVY_APP_BIND_DIR /home/user/app
+
+EXPOSE 8000
+CMD /home/user/google_appengine/dev_appserver.py 2>&1 --host 0.0.0.0 --admin_host=0.0.0.0 --skip_sdk_update_check true /home/user/app
